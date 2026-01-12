@@ -393,27 +393,27 @@ const team = [
 const galleryItems = [
   {
     title: "Atelier Moderne",
-    img: "../src/assets/atelier1.jpeg",
+    img: "/images/atelier1.jpeg",
   },
   {
     title: "Équipement Pro",
-    img: "../src/assets/atelier2.jpeg",
+    img: "/images/atelier2.jpeg",
   },
   {
     title: "Zone Accueil",
-    img: "../src/assets/atelier3.jpeg",
+    img: "/images/atelier3.jpeg",
   },
   {
     title: "Diagnostic",
-    img: "../src/assets/atelier4.jpeg",
+    img: "/images/atelier4.jpeg",
   },
   {
     title: "Espace Pneus",
-    img: "../src/assets/atelier5.jpeg",
+    img: "/images/atelier5.jpeg",
   },
   {
     title: "Notre Équipe",
-    img: "../src/assets/atelier6.jpeg", // Note: corrigé pour utiliser une image différente
+    img: "/images/atelier1.jpeg", // Note: corrigé pour utiliser une image différente
   },
 ];
 
