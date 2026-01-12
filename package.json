@@ -1,23 +1,19 @@
 {
-  "name": "nuxt-starter",
+  "name": "patience",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "nuxt": "3.20.2",
-    "nuxt-icon": "^0.6.10",
-    "tailwindcss": "^4.0.16",
-    "vue": "^3.4.3",
-    "vue-router": "^4.2.5"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@nuxt/image": "^2.0.0",
-    "@tailwindcss/vite": "^4.0.16"
+    "lucide-vue-next": "^0.562.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
   }
 }
